@@ -11,5 +11,6 @@ gem "mini_magick"
 gem "sass"
 gem "uglifier"
 
-gem 'capistrano'
+gem 'capistrano', require: false
+gem 'capistrano-rvm', require: false
 gem 'capistrano-nvm', require: false
