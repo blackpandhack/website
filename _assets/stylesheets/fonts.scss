@@ -45,3 +45,14 @@
   url(asset_path('lato/Lato-700.woff')) format('woff'),
   url(asset_path('lato/Lato-700.ttf')) format('truetype'),
 }
+
+/* Import the font by sprocket */
+@font-face {
+  font-family: 'ionicons';
+  font-style: normal;
+  font-weight: 300;
+  src: url(asset_path('ionicons/ionicons.eot')), 
+       url(asset_path('ionicons/ionicons.woff')) format('woff'),
+       url(asset_path('ionicons/ionicons.svg')) format('svg'),
+       url(asset_path('ionicons/ionicons.ttf')) format('truetype'),
+}

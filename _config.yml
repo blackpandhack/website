@@ -1,7 +1,7 @@
 # Mandatory settings
 
 name: Pandhack
-paginate: 25
+paginate: 15
 url: http://pandhack.fr
 blog_theme: light # Or use dark
 
