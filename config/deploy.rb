@@ -22,7 +22,7 @@ namespace :deploy do
         execute :npm, "install -g bower"
         execute :bower, "install"
 
-      	execute :jekyll, "build"
+      	execute :bundle, "exec jekyll build"
       end
     end
   end
