@@ -1,0 +1,10 @@
+!.keep
+*.DS_Store
+*.sass-cache
+/.asset-cache/*
+/_site/*
+/_assets/bower/*
+/bundle/
+/.asset-cache/
+*.swp
+Gemfile.lock
