@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "addressable", "2.5.0"
 gem "autoprefixer-rails"
 gem "html-proofer"
 gem "jekyll"
