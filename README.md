@@ -8,6 +8,7 @@ Pour ajouter des posts:
 layout: post
 title: "Titre du post"
 description: "Description du post"
+author: "Auteur"
 tags: [tous, les, tags, du, post]
 ---
 ```

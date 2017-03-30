@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The first crackme of the NDK 2016"
+author: "Noname"
 description: "Solved with angr and radare2"
 tags: [reverse, radare2, angr]
 ---

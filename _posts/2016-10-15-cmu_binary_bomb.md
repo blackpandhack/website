@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Solving CMU binary bomb with angr"
+author: "Noname"
 description: "The 5 first phase of CMU binary bomb with radare2 and angr"
 tags: [reverse, radare2, angr]
 ---
