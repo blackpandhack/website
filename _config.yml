@@ -48,16 +48,12 @@ defaults:
 exclude:
   - .bowerrc
   - .travis.yml
-  - bin/*
   - bower.json
-  - circle.yml
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - vendor/
   - config/
   - Capfile
-  - bundle
+  - bundle/
 gems:
   - jekyll-assets
   - jekyll-paginate
