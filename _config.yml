@@ -50,6 +50,7 @@ exclude:
   - bower.json
   - Gemfile
   - Gemfile.lock
+  - README.md
   - config/
   - Capfile
   - bundle/
