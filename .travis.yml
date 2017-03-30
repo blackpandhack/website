@@ -1,11 +1,9 @@
 language: ruby
 rvm:
-- 2.0.0
+- 2.2.2
 env:
   global:
     secure: imYxLXMztRWTchzSkXWnbS/tVfG464LXwjam3KUsCcGcQOmC5CvxHOYNGc4R0HFnJWyjBs6c2nmcWHaMr5dIRm0pS38Ssa0LaLBXDXvlmnsR8yIfCICRHEa2rnPNZzBFdCZJGLwd0RpAfkcSadxD2OJmywMBTGV3rQWxuSJzyvnjjuix6I/og0AonwD40NEaWBFmy+b4YoWYL366pYnVdqV5sUFryGKVNB4v86x8DP+omn95ci+Ds5ICDd8NkxYzb+8BLU3BCdm8TPlSDNBDwOuL6pKMCrWk++u4Sp9SwRnHyc5J6VZd8/MaAUkbcTIqVaiY+c/tSzphZ/L/NqffuWOkC/A43tMpVM4G5gxsWmivpB4X8dRGCbye9gARmtNPjI1iK2lUQdby+6CuYrXRhMKVX/nJ3wIqFIpDt3KkamBKg2FsvrMc742h5J8kBmOV19nbnoEqeeJ8a7bBFRPzexars0L1XGxmhn1W9Q9Mji25KJY1m5EUbUXlcNMv3SpInLsxnjyXV6lLKle7OQciyHjLTvLYuoGWEIv3b18ydj5R1KrqVI+z5BcuuEPlCqNx52sZj3n70iQh15YtSlu4dKvnVe0uwxw9lPwRfs2mR4qG8SVCPuQYReV9TGllTz6JfaaHwVOmPoWZFhAvnXo2MC7lYlQtrBW9OQhAOdoaypI=
-before_install:
-  - gem install nokogiri -- --with-cflags='--std=gnu99'
 after_success:
   - "openssl aes-256-cbc -k $DEPLOY_KEY -in config/deploy_id_rsa_enc_travis -d -a -out config/deploy_id_rsa"
   - "bundle exec cap deploy"
