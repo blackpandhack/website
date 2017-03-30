@@ -2,7 +2,7 @@
 lock "3.8.0"
 
 set :application, "website"
-set :repo_url, "ssh://github.com/blackpandhack/website.git"
+set :repo_url, "https://github.com/blackpandhack/website.git"
 
 set :ssh_options, keys: ["config/deploy_id_rsa"] if File.exist?("config/deploy_id_rsa")
 
