@@ -6,7 +6,7 @@ set :repo_url, "ssh://github.com/blackpandhack/website.git"
 
 set :ssh_options, keys: ["config/deploy_id_rsa"] if File.exist?("config/deploy_id_rsa")
 
-set :nvm_node, 'v7.5.0'
+set :nvm_node, 'v7.8.0'
 set :nvm_map_bins, %w{bower npm}
 
 set :deploy_to, "/var/www"
